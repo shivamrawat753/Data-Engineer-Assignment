@@ -1,4 +1,4 @@
-# Data-Engineer-Assignment
+# Data Processing of MIMIC-IV Demo Dataset: Patient Conditions and Encounters
 
 The main files of interest are:
 1. Patient.ndjson
