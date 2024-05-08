@@ -1,10 +1,11 @@
 # Data-Engineer-Assignment
 
-The main files of interest for you are:
+The main files of interest are:
 1. Patient.ndjson
 2. Condition.ndjson
 3. Encounter.ndjson
 4. EncounterICU.ndjson (this file has the same format as Encounter.json)
+
 “Patient.ndjson” file contains all the patients in the mimicIV demo dataset. Each line of this
 file represents an individual patient json file.
 “Condition.ndjson” file contains diseases that were assigned to patients. Each line of this file
@@ -12,7 +13,7 @@ represents a json referencing a specific disease that was assigned to a patient.
 object also references an encounter that was associated with each such condition.
 “Encounter.json” file contains the details of an encounter in each line.
 Note that each line in the Condition file references an Encounter and a Patient.
-Your goal in this assignment is to:
+The goal in this assignment is to:
 1. Get familiar with the json object format contained in each line of the 4 files:
 a. Patient.ndjson
 b. Condition.ndjson
